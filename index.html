@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>sibori</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+
+<form name="form1">
+    <div class="search-box category">
+        <span class="search-box_label">Category:</span>
+        <input type="radio" name="category" value="">ALL
+        <input type="radio" name="category" value="HTML・CSS">HTML・CSS
+        <input type="radio" name="category" value="JavaScript">JavaScript
+        <input type="radio" name="category" value="CMS">CMS
+        <input type="radio" name="category" value="Program">Program
+        <input type="radio" name="category" value="Mobile">Mobile
+        <input type="radio" name="category" value="SEO・SEM">SEO・SEM
+        <input type="radio" name="category" value="ツール">ツール
+        <input type="radio" name="category" value="その他">その他
+        <input type="radio" name="category" value="殿堂入り">殿堂入り
+    </div>
+<br>
+    <div class="search-box andor">
+        <span class="search-box_label">search method:</span>
+        <input type="radio" name="andor" value="and">and
+        <input type="radio" name="andor" value="or">or
+    </div>
+<br>
+    <div class="search-box tag">
+        <span class="search-box_label">Tag:</span>
+        <input type="checkbox" name="tag" value="adobe">adobe
+        <input type="checkbox" name="tag" value="Android">Android
+        <input type="checkbox" name="tag" value="Chrome">Chrome
+        <input type="checkbox" name="tag" value="CSSの設計">CSSの設計
+        <input type="checkbox" name="tag" value="font">font
+        <input type="checkbox" name="tag" value="Google Chrome">Google Chrome
+        <input type="checkbox" name="tag" value="gulp">gulp
+        <input type="checkbox" name="tag" value="heroku">heroku
+        <input type="checkbox" name="tag" value="icon">icon
+        <input type="checkbox" name="tag" value="iPhone">iPhone
+        <input type="checkbox" name="tag" value="meta">meta
+        <input type="checkbox" name="tag" value="Movable Type">Movable Type
+        <input type="checkbox" name="tag" value="mysql">mysql
+        <input type="checkbox" name="tag" value="photoshop">photoshop
+        <input type="checkbox" name="tag" value="Sass">Sass
+        <input type="checkbox" name="tag" value="ssh">ssh
+        <input type="checkbox" name="tag" value="SVG">SVG
+        <input type="checkbox" name="tag" value="Webフォント">Webフォント
+        <input type="checkbox" name="tag" value="アドオン">アドオン
+        <input type="checkbox" name="tag" value="アニメーション">アニメーション
+        <input type="checkbox" name="tag" value="エクステンション">エクステンション
+        <input type="checkbox" name="tag" value="参考サイト">参考サイト
+        <input type="checkbox" name="tag" value="シェア">シェア
+        <input type="checkbox" name="tag" value="シェア調査">シェア調査
+        <input type="checkbox" name="tag" value="書体">書体
+        <input type="checkbox" name="tag" value="縦書き">縦書き
+        <input type="checkbox" name="tag" value="縦組み">縦組み
+        <input type="checkbox" name="tag" value="デザイン">デザイン
+        <input type="checkbox" name="tag" value="デバッグ">デバッグ
+        <input type="checkbox" name="tag" value="ブラウザ">ブラウザ
+        <input type="checkbox" name="tag" value="プラグイン">プラグイン
+    </div>
+</form>
+
+
+<ul class="list">
+    <li class="list_item" data-category='Program' data-tag='ssh,mysql'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/program/post14579.html">SSH のポートフォワーディングを使って MySQL に接続する</a><br>
+        Category: Program Tag: ssh,mysql
+    </li>
+    <li class="list_item" data-category='ツール,その他' data-tag='photoshop,エクステンション'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/tool/post14513.html">Photoshopのエクステンションを自作する</a><br>
+        Category: ツール,その他 Tag: photoshop,エクステンション
+    </li>
+    <li class="list_item" data-category='ツール' data-tag='アドオン,Google Chrome'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/tool/post14457.html">スピードアップ！仕事効率化おすすめChromeアドオン5選</a><br>
+        Category: ツール Tag: アドオン,Google Chrome
+    </li>
+    <li class="list_item" data-category='HTML・CSS,その他' data-tag='iPhone,Android,ブラウザ,シェア'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/html_css/post14411.html">対象ブラウザを見直してみる（2018年1月版）</a><br>
+        Category: HTML・CSS,その他 Tag: iPhone,Android,ブラウザ,シェア
+    </li>
+    <li class="list_item" data-category='HTML・CSS' data-tag='SVG,アニメーション'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/html_css/post14400.html">SVGでリアルな湯気を作ってみる</a><br>
+        Category: HTML・CSS Tag: SVG,アニメーション
+    </li>
+    <li class="list_item" data-category='その他' data-tag='シェア調査,ブラウザ'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/others/post13405.html">スマートフォン・PCのブラウザシェア調査（2017年12月分）</a><br>
+        Category: その他 Tag: シェア調査,ブラウザ
+    </li>
+    <li class="list_item" data-category='HTML・CSS,その他' data-tag='font, 参考サイト,縦書き,デザイン'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/html_css/post13923.html">和風の縦書きサイトを作る時に気をつけたこと</a><br>
+        Category: HTML・CSS,その他 Tag: font,参考サイト,縦書き,デザイン
+    </li>
+    <li class="list_item" data-category='HTML・CSS,その他' data-tag='Webフォント,font,書体,縦書き,縦組み'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/html_css/post13996.html">文字についてとCSSでの文字の制御（縦書きもあるよ）について</a><br>
+        Category: HTML・CSS,その他 Tag: Webフォント,font,書体,縦書き,縦組み
+    </li>
+    <li class="list_item" data-category='ツール' data-tag='photoshop,adobe'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/tool/post13915.html">これが便利！Photoshop CC 2018の新機能</a><br>
+        Category: ツール Tag: photoshop,adobe
+    </li>
+    <li class="list_item" data-category='Program' data-tag='heroku'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/program/post14102.html">Heroku のエラーページをカスタマイズする</a><br>
+        Category: Program Tag: heroku
+    </li>
+    <li class="list_item" data-category='JavaScript' data-tag='SVG,gulp,icon,font'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/javascript/post11005.html">gulpでsvgからアイコンフォントを作成する</a><br>
+        Category: JavaScript Tag: SVG,gulp,icon,font
+    </li>
+    <li class="list_item" data-category='CMS' data-tag='Movable Type,プラグイン'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/cms/post13620.html">Movable Typeの構築や運用時によく使うプラグイン8選</a><br>
+        Category: CMS Tag: Movable Type,プラグイン
+    </li>
+    <li class="list_item" data-category='HTML・CSS,Mobile' data-tag='Chrome,デバッグ'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/html_css/post12799.html">Android の Chrome で開いたページを、PC から DevTools でデバッグする</a><br>
+        Category: HTML・CSS,Mobile Tag: Chrome,デバッグ
+    </li>
+    <li class="list_item" data-category='HTML・CSS,SEO・SEM' data-tag='meta'>
+        <a href="">開発環境でも使えるメタ情報チェックツール「Simple Meta Checker」を作りました</a><br>
+        Category: HTML・CSS,SEO・SEM Tag: meta
+    </li>
+    <li class="list_item" data-category='HTML・CSS,殿堂入り' data-tag='Sass,CSSの設計'>
+        <a href="https://www.tam-tam.co.jp/tipsnote/html_css/post10205.html">CSSの設計 – FLOCSSをベースにしたファイルの構成と命名規則を考える</a><br>
+        Category: HTML・CSS,殿堂入り Tag: Sass,CSSの設計
+    </li>
+</ul>
+
+<script type="text/javascript" src="./sibori.js"></script>
+</body>
+</html>
